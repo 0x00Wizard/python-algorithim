@@ -8,7 +8,6 @@
 #
 
 
-
 # Linear Search Algorithm with print statements)
 
 def linear_search(main_list, item):
@@ -25,4 +24,5 @@ def linear_search(main_list, item):
     print("The item is not in the list")
     return -1
 
-print(linear_search([1, 3, 2, 4, 5, 6, 7], 6))
+
+linear_search([1, 3, 2, 4, 5, 6, 7], 6)
