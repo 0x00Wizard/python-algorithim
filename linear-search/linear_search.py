@@ -1,13 +1,12 @@
 # Linear Search Algorithm
 
-def linear_search(main_list, item):
-    for i in range(len(main_list)):
-        if main_list[i] == item:
-            return i
-    return -1
+# def linear_search(main_list, item):
+#     for i in range(len(main_list)):
+#         if main_list[i] == item:
+#             return i
+#     return -1
+#
 
-
-print(linear_search([1, 3, 2, 4, 5, 6, 7], 6))
 
 
 # Linear Search Algorithm with print statements)
@@ -25,3 +24,5 @@ def linear_search(main_list, item):
         print("This is not the item")
     print("The item is not in the list")
     return -1
+
+print(linear_search([1, 3, 2, 4, 5, 6, 7], 6))
