@@ -88,3 +88,4 @@ def binary_search(data, item):
     return -1
 
 
+binary_search([1, 3, 5, 6, 9, 10, 15, 20, 25], 6)
