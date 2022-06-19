@@ -30,3 +30,7 @@ def bubble_sort(lst):
                 else:
                     print("Already sorted:", lst[j], "=", lst[j + 1])
                     print("No change:", lst, "\n")
+
+
+bubble_sort([2, 3, 32, 12, 10, 11, 15, 8, 9, 1])
+
