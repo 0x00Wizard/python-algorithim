@@ -32,3 +32,5 @@ def binary_search(data, low, high, item):
         return -1
 
 
+a = [1, 3, 5, 6, 9, 10, 15, 20, 25]
+binary_search(a, 0, len(a) - 1, 25)
