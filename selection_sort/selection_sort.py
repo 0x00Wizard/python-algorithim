@@ -3,8 +3,8 @@ def selection_sort(lst):
 
         min_index = i
 
-        for current_index in range(i+1, len(lst)):
+        for current_index in range(i + 1, len(lst)):
             if lst[min_index] > lst[current_index]:
                 min_index = current_index
 
-
+        lst[i], lst[min_index] = lst[min_index], lst[i]
