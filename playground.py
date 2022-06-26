@@ -1,13 +1,9 @@
-def binary_search(data, low, high, item):
-    if low <= high:
-        middle = (low + high) // 2
+def selection_sort(lst):
 
-        if data[middle] == data:
-            return middle
-        elif data[middle] > data:
-            return binary_search(data, low, middle + 1, item)
+    for i in range(len(lst)):
+        min_index = i
 
-        else:
-            return binary_search(data, middle - 1, high, item)
+        for curr_index in range(i + 1, len(lst)):
+            if lst[min_index] > lst[curr_index]
+                min_index = curr_index
 
-    return -1
